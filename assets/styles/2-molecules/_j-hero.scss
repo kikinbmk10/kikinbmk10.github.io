@@ -12,7 +12,7 @@
 			align-items: center;
 			height: 90vh;
 			text-align: center;
-			background-image: url("https://dummyimage.com/1200x800/000/000");
+			background-image: url("../images/aori.png");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -25,7 +25,7 @@
 			align-items: center;
 			height: 90vh;
 			text-align: center;
-			background-image: url('https://dummyimage.com/1200x800/0011ff/0011ff');
+			background-image: url('../images/efirsa.png');
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -38,7 +38,7 @@
 			align-items: center;
 			height: 90vh;
 			text-align: center;
-			background-image: url("https://dummyimage.com/1200x800/0d944a/0d944a");
+			background-image: url("../images/drjuan.png");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -52,7 +52,20 @@
 			align-items: center;
 			height: 90vh;
 			text-align: center;
-			background-image: url("https://dummyimage.com/1200x800/940d28/940d28");
+			background-image: url("../images/2.png");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.hero-item-5{
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 90vh;
+			text-align: center;
+			background-image: url("../images/nano.png");
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -64,8 +77,10 @@
 	letter-spacing: 3px;
 	color: #fff;
 	margin-bottom: 0;
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 	@include mobile{
-		font-size: 3rem;
+		font-size: 2.4rem;
+		margin-bottom: 16px;
 	}
 }
 .item-p{
@@ -73,20 +88,22 @@
 	font-size: 2rem;
 	color: #fff;
 	margin-bottom: 40px;
+	text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 	@include tablet{
 		width: 90%;
 	}
 	@include mobile{
-		width: 90%;
-		font-size: 1.1rem;
-		margin-bottom: 24px;
+		display: none;
 	}
 }
 .item-button{
 	margin-bottom: 40px;
-
+	@include mobile{
+		margin-bottom: 0;
+	}
 	button{
 		max-width: 100%;
+		font-weight: bold;
 		color: #fff;
 		letter-spacing: 2px;
 		padding-top: 20px;
@@ -95,5 +112,6 @@
     	padding-left: 40px;
 		background: red;
 		border-radius: 25px;
+		box-shadow: 2px 2px 8px 2px rgba(0,0,0,.5);
 	}
 }

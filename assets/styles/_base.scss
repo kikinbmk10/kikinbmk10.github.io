@@ -49,9 +49,6 @@ ul,ol {
   padding-left: 25px;
   li {
     margin-bottom: $space-base;
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
   li>ul>li {
     margin-top: 16px;
