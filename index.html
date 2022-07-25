@@ -1,114 +1,16 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Kikin | Portafolio</title>
-  <link rel="icon" type="image/png" href="assets/images/letra.png" sizes="64x64">
-
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" integrity="sha256-K3Njjl2oe0gjRteXwX01fQD5fkk9JFFBdUHy/h38ggY=" crossorigin="anonymous" rel="stylesheet">
-  <link href="./assets/styles/main.css" rel="stylesheet">
-  
-  <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
-</head>
-
+  <meta charset="utf-8">
+  <title>Weather project</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="author" content="Enrique Yassiel Santos Macías"/>
+  <meta name="description" content="Página para mostrar el clima por ciudad">
+  <meta name="robots" content="index, follow">
+<link rel="stylesheet" href="styles.css"></head>
 <body>
-  <!--  Header  -->
-
-  <div class="header-container">
-    <header class="main-nav">
-      <a href="#">
-        <img src="assets/images/letra.png" alt="">
-      </a>
-      <nav role="navigation">
-        <ul>
-          <li>
-            PORTAFOLIO
-          </li>
-          <li>
-            Enrique Yassiel Santos Macías
-          </li>
-        </ul>
-      </nav>
-      <div id="nav-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </header>
-  </div>
-  <!--  Hero -->
-  	<div class="hero-content">
-			<div class="your-class">
-				<div class="hero-item-1">
-					<h2 class="item-title">AORI</h2>
-					<p class="item-p">Es empresa especializada en medios digitales. Es una firma de branding, media y consultoría empresarial enfocada en brindarle al cliente una solución integral usando como herramienta el diseño.</p>
-					<a href="https://aori.mx/es" target="_blank" class="item-button"><button>IR AL SITIO WEB</button></a>
-				</div>
-				<div class="hero-item-2">
-					<h2 class="item-title">EFIRSA</h2>
-					<p class="item-p">EFIRSA se especializa en todo tipo de ascensores y escaleras eléctricas desde hace más de 30 años.</p>
-					<a href="https://efirsa.mx/" target="_blank" class="item-button"><button>IR AL SITIO WEB</button></a>
-				</div>
-				<div class="hero-item-3">
-					<h2 class="item-title">Dr. Juan Manuel Riestra</h2>
-					<p class="item-p">Es Médico Cirujano por la Universidad de Guadalajara con Especialidad en Neurocirugía por el Instituto Mexicano del Seguro Social</p>
-					<a href="http://drjuanmanuelriestra.com/" target="_blank" class="item-button"><button>IR AL SITIO WEB</button></a>
-				</div>
-				<div class="hero-item-4">
-					<h2 class="item-title">Dr. Arturo Flores</h2>
-					<p class="item-p">Es Médico Cirujano por la Universidad Autónoma de Aguascalientes con Especialidad en Cardiología Intervencionista en arritmias cardiacas.</p>
-					<a href="http://www.drarturoflores.com/" target="_blank" class="item-button"><button>IR AL SITIO WEB</button></a>
-				</div>
-				<div class="hero-item-5">
-					<h2 class="item-title">Nano Creaciones</h2>
-					<p class="item-p">Tras unir el talento, estudios y experiencia en los campos de la medicina, energía, agroindustria y construcción, se generó un techo en común dentro del campo de la nanotecnología.</p>
-					<a href="http://nanocreaciones.com" target="_blank" class="item-button"><button>IR AL SITIO WEB</button></a>
-				</div>
-			</div>
-  </div>
-
-  <!--  Main content -->
-  <main class="j-workspace ">
-  
-  </main>
-  <footer>
-    <hr class="footer-hr-horizontal">
-    <div class="j-wrap">
-      <div class="footer-content-bottom">
-        <p>Copyright © 2018, Enrique Yassiel Santos Macías. - All Rights Reserved</p>
-        <div class="social-networks">
-          <a href="https://www.facebook.com/enrique.santos.14019338" target="_blank"><img src="assets/images/face.png" alt=""></a>
-				  <a href="https://www.linkedin.com/in/enrique-yassiel-santos-mac%C3%ACas-03136b141/" target="_blank"><img src="assets/images/linke.png" alt=""></a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="assets/scripts/ripple.js"></script>
-  <script src="assets/scripts/header.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="assets/slick/slick.min.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function(){
-         $('.your-class').slick({
-            dots: true,
-            infinite: true,
-            speed: 500,
-            fade: true,
-            cssEase: 'ease',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            arrows:false,
-            pauseOnHover: false,
-         });
-      });
- </script>
-</body>
+  <app-root></app-root>
+<script src="runtime.js" type="module"></script><script src="polyfills.js" type="module"></script><script src="vendor.js" type="module"></script><script src="main.js" type="module"></script></body>
 </html>
